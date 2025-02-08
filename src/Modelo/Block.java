@@ -7,6 +7,7 @@ import java.awt.Color;
 public class Block {
     private Color color;
     private int x, y;
+    
     public Block(Color color, int x, int y) {
         this.color = color;
         this.x = x;
@@ -30,5 +31,9 @@ public class Block {
 
     public void setY(int y) {
         this.y = y;
+    }
+    
+    public void setColor(Color color) {
+        this.color = color;
     }
 }
